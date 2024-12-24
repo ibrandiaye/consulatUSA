@@ -19,8 +19,8 @@ License: You must have a valid license purchased only from templatemonster to le
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 	<!-- Morris Charts CSS -->
-    <script src="/ETD webapp_files/jquery-1.11.0.min.js"></script>
-    <script src="/ETD webapp_files/jquery.min.js"></script>
+    <script src=" {{ asset('ETD webapp_files/jquery-1.11.0.min.js') }} "></script>
+    <script src=" {{ asset('ETD webapp_files/jquery.min.js') }} "></script>
     <link href="{{ asset('vendors/morris.js/morris.css') }}" rel="stylesheet" type="text/css" />
 
     <!-- Toggles CSS -->
