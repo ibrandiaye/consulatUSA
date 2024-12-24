@@ -17,7 +17,7 @@ async function getScannerVer() {
         }
     }
 }
-
+if ('serial' in navigator) {
 // listener for serial device connection state.
 navigator.serial.addEventListener('connect', (e) => {
     console.log("Serial reader connected");
@@ -39,6 +39,7 @@ navigator.serial.addEventListener('disconnect', (e) => {
     resetConfig();
     document.getElementById("connect").innerHTML = webapp_config.CONNECT;
 });
+}
 
 /*
  * SerialDevice class provides methods to Connect to scanner, Send request to device and Read response from device.
