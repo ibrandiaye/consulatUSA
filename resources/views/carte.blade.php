@@ -3,29 +3,29 @@
 @section('css')
     
 
-<script src="/ETD webapp_files/websocket.js"></script>
-<script src="/ETD webapp_files/webusb.js"></script>
-<script src="/ETD webapp_files/webserial.js"></script>
-<script src="/ETD webapp_files/emrtd_openpace.js"></script>
-<script src="/ETD webapp_files/emrtd_dg.js"></script>
-<script src="/ETD webapp_files/emrtd_pace.js"></script>
-<script src="/ETD webapp_files/log.js"></script>
-<script src="/ETD webapp_files/util.js"></script>
-<script src="/ETD webapp_files/gui.js"></script>
-<script src="/ETD webapp_files/ccid.js"></script>
-<script src="/ETD webapp_files/mrz.js"></script>
-<script src="/ETD webapp_files/webapp.js"></script>
-<script src="/ETD webapp_files/biomini.js"></script>
+<script src="/consulatusa/ETD webapp_files/websocket.js"></script>
+<script src="/consulatusa/ETD webapp_files/webusb.js"></script>
+<script src="/consulatusa/ETD webapp_files/webserial.js"></script>
+<script src="/consulatusa/ETD webapp_files/emrtd_openpace.js"></script>
+<script src="/consulatusa/ETD webapp_files/emrtd_dg.js"></script>
+<script src="/consulatusa/ETD webapp_files/emrtd_pace.js"></script>
+<script src="/consulatusa/ETD webapp_files/log.js"></script>
+<script src="/consulatusa/ETD webapp_files/util.js"></script>
+<script src="/consulatusa/ETD webapp_files/gui.js"></script>
+<script src="/consulatusa/ETD webapp_files/ccid.js"></script>
+<script src="/consulatusa/ETD webapp_files/mrz.js"></script>
+<script src="/consulatusa/ETD webapp_files/webapp.js"></script>
+<script src="/consulatusa/ETD webapp_files/biomini.js"></script>
 <link rel="icon" type="image/x-icon" href="https://www.elyctis.com/images/favicon.ico">
-<link rel="stylesheet" href="/ETD webapp_files/custom.css">
+<link rel="stylesheet" href="/consulatusa/ETD webapp_files/custom.css">
 
 <!-- jQuery UI theme -->
-<link rel="stylesheet" type="text/css" href="/ETD webapp_files/jquery-ui.css">
-<script src="/ETD webapp_files/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="/consulatusa/ETD webapp_files/jquery-ui.css">
+<script src="/consulatusa/ETD webapp_files/jquery-ui.js"></script>
 
 <!-- pinpad CSS -->
-<link rel="stylesheet" type="text/css" href="/ETD webapp_files/jquery.ui.pinpad.css">
-<script src="/ETD webapp_files/jquery.ui.pinpad.js"></script>
+<link rel="stylesheet" type="text/css" href="/consulatusa/ETD webapp_files/jquery.ui.pinpad.css">
+<script src="/consulatusa/ETD webapp_files/jquery.ui.pinpad.js"></script>
 
 <!-- eactest wasm - will be loaded dynamically -->
 <!--<link rel="webassembly" type="application/wasm" href="js/eactest.wasm">
@@ -33,7 +33,7 @@
 
 <!-- open jpeg wasm -->
 <link rel="webassembly" type="application/wasm" href="https://www.elyctis.com/demo/elytraveldoc/js/openjpegjs.wasm">
-<script src="/ETD webapp_files/openjpegjs.js"></script>
+<script src="/consulatusa/ETD webapp_files/openjpegjs.js"></script>
 @endsection
 
 @section('content')
