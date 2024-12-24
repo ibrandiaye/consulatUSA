@@ -696,7 +696,7 @@ class Util {
     async loadOpenPaceModule() {
         return new Promise((resolve, reject) => {
             scriptElement = document.createElement('script');
-            scriptElement.src = '/js/eactest.js';
+            scriptElement.src = '/consulatusa/js/eactest.js';
             scriptElement.onload = () => {
                 createModule().then(module => {
                     Module = module;
